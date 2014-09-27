@@ -1,28 +1,16 @@
 # Gaslight::Google
 
-The `gaslight-google` gem provides an interface for interacting with the 
-Gaslight Google API. 
+The `gaslight-client` gem is a reusable client library for consuming gaslight APIs 
 
-## Installation
+## Installation and Usage
 
-Add this line to your application's Gemfile:
-
-    gem 'gaslight-google', github: 'gaslight/gaslight-google'
-
-And then execute:
-
-    $ bundle
-
-## Usage
-
-Getting a list of all of the posts is easy:
-
-    Gaslight::Google::Post.all
-
+This gem is a dependency to gaslight api gems like gaslight-people and
+gaslight-google. Clone this gem and `rake install` it to add it to your gem
+list before doing local development on gems that depend on this.
 
 ## Contributing
 
-1. Fork it ( https://github.com/gaslight/gaslight-google/fork )
+1. Fork it ( https://github.com/gaslight/gaslight-client/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
