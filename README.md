@@ -2,11 +2,13 @@
 
 The `gaslight-client` gem is a reusable client library for consuming gaslight APIs 
 
+This gem is a dependency to gaslight api gems like gaslight-people and
+gaslight-google. 
+
 ## Installation and Usage
 
-This gem is a dependency to gaslight api gems like gaslight-people and
-gaslight-google. Clone this gem and `rake install` it to add it to your gem
-list before doing local development on gems that depend on this.
+This gem looks for a `API_PATH` in the environment. If not set it will set
+the root API path to `localhost:3000/api`
 
 ## Contributing
 
